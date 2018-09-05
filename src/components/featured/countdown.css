@@ -1,0 +1,38 @@
+/**     CountDown   **/
+
+.countdown_wrapper {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+}
+
+.countdown_wrapper .countdown_top {
+    display: inline-block;
+    padding: 10px;
+    background: #ff4800;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.countdown_wrapper .countdown_bottom {
+    display: flex;
+    background: #d93d00;
+    padding: 10px 20px;
+}
+
+.countdown_wrapper .countdown_time {
+    border-right: 1px solid #F44336;
+    margin-right: 14px;
+    padding-right: 49px;
+    font-size:70px;
+}
+
+.countdown_wrapper .countdown_item:last-child .countdown_time {
+    border: none;
+}
+
+.countdown_wrapper .countdown_tag {
+    padding: 7px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
